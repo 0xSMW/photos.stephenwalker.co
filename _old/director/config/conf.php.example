@@ -1,0 +1,12 @@
+<?php
+
+	// Fill in your database connection details below, then run _install.php
+	$host = 'localhost';
+	$db = 'my_db';
+	$user = 'user';
+	$pass = 'pass';
+
+	// Change this only if you have multiple installs of SlideShowPro Director in this database                                     
+	$pre = 'ssp_';            
+
+?>

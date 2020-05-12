@@ -1,0 +1,10 @@
+<div id="footer">
+	<span>
+	<strong>AugustMobius.com Director <?php e(DIR_VERSION); ?><?php if (TRIAL_STATE): ?> TRIAL<?php endif; ?></strong>
+	<?php if (isset($version_link) && AUTO_UPDATE): ?>
+		<a href="#" onclick="
+		window.scrollTo(0,0); Messaging.dialogue('update'); return false;" title="<?php __('New Version Available'); ?>" style="color:#fafafa;" target="_blank"><?php __('New Version Available'); ?></a>
+	<?php endif; ?>
+	&copy; 2005-<?php e(date('Y')); ?> AugustMobius.com. <?php __('All Rights Reserved'); ?>. 
+	</span>
+</div>
